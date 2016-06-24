@@ -15,8 +15,8 @@ from charms.reactive import RelationBase
 from charms.reactive import hook
 from charms.reactive import scopes
 
-from jenkinslib.plugins import Plugins
-from jenkinslib.paths import HOME
+from charms.layer.jenkins.plugins import Plugins
+from charms.layer.jenkins.paths import HOME
 
 PLUGINS = "credentials ssh-credentials ssh-agent gearman-plugin git-client git"
 
